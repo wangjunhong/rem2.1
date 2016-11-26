@@ -1,0 +1,17 @@
+$baseFontSize: 20px !default;
+html{font-size: $baseFontSize;}
+*{box-sizing: border-box;}
+body,dl,dd,h1,h2,h3,h4,h5,h6,p,ul,ol,form{margin:0;}
+ul,ol{padding-left: 0;list-style-type: none;}
+table{border-collapse:collapse;border-spacing:0;}
+button,input[type="submit"],input[type="button"]{cursor:pointer;border: 0px;}
+input,select,textarea,button{outline:0;font-family: inherit;}
+li{list-style:none;}
+img{border:0;outline:none;max-width: 100%;}
+a{text-decoration: none;color: #333;outline: none}
+a:hover{color:#189ba3;}
+h1,h2,h3,b{font-weight: normal;}
+em{font-family: 'simsun',sans-serif;font-style: normal;}
+body{font:normal 12px/1.4 'Microsoft YaHei','Hiragino Sans GB',STHeiti;-webkit-font-smoothing:antialiased;color: #333;word-wrap: break-word}
+.clearfix:before,.clearfix:after,.container:before,.container:after,.row:before,.row:after,.g-wrap:after,.g-wrap:before{display: table;content:" ";}
+.clearfix:after,.container:after,.row:after,.g-wrap:after{clear: both;}
